@@ -1,4 +1,4 @@
-@media(max-width:615px) {
+@media(max-width:500px) {
     .navigation-wrapper{
         flex-direction: column;
         height: 100%;
@@ -58,7 +58,7 @@
 }
 
 
-@media(max-width:615px){
+@media(max-width:500px){
    .head-about{
     flex-direction: column;
    } 
@@ -93,7 +93,7 @@
 }
 
 /*contact*/
-@media(max-width:615px){
+@media(max-width:500px){
     .company-sidebar-wrapper{
         width: 100%;
         grid-template-columns: 1fr;
