@@ -1,0 +1,75 @@
+ /*base css styles*/
+.basepage{
+    background-color: black;
+}
+
+
+
+.base-number{
+    font-family: sans-serif, Arial;
+    color: white;
+}
+
+.basetime{
+    font-family: sans-serif, Arial;
+    color: #ceab5b;
+    padding-left: 20px;
+
+}
+
+.base-enquire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+
+.base-image{
+    display: flex;
+    justify-content: center;
+    filter: brightness(60%);
+
+}
+
+.base-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 450px 40px 450px;
+}
+
+.base-links a{
+    font-family: sans-serif, Arial;
+    color: white;
+    text-decoration: none;
+    transition:0.5s ;
+}
+
+.base-links a:hover{
+    color: #cea135;
+    letter-spacing: 2px;
+}
+
+.social-icons > .social-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.social-icons i:hover{
+    color: #122212;
+    transition: 1s;
+}
+
+.social-links a{
+    color: white;
+    text-decoration: none;
+    padding: 35px 50px;
+
+}
+
+
+

@@ -1,0 +1,112 @@
+.form-group{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.form-group input{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    color: inherit;
+    padding: 1.5rem 2rem;
+    border-radius: 2px;
+    border: none;
+    border-bottom: 3px solid  #11122b;
+    width: 90%;
+    display: block;
+    transition:  0.3s;
+    
+}
+
+
+.form-group textarea{
+    width: 100%;
+    height: 200px;
+    border:  2px solid #11122b;
+    border-radius: 3px;
+    font-size: 1.5rem;
+    font-family: inherit;
+    transition: all 0.3s;
+    
+}
+
+.form-group input:focus {
+    outline: none;
+    box-shadow:  0rem 1rem 2rem rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid #cea135;
+   
+}
+
+
+.form-group textarea:focus {
+    outline: none;
+    box-shadow:  0rem 2rem 2rem rgba(0, 0,  0 , 0.1);
+    border: 3px solid #cea135
+}
+
+.form-group input::-webkit-input-placeholder, .form-group textarea::-webkit-input-placeholder{
+    color: #11122b;
+}
+
+.form-group input:focus::-webkit-input-placeholder, .form-group textarea:focus::-webkit-input-placeholder{
+    color: transparent;
+}
+
+
+
+/*button wrapper*/
+.centered-button-wrapper button{
+    background-color: #cea135;
+    color: #11122b;
+    font-size: 1.25rem;
+    padding: 10px 25px;
+    border: 1px solid #cea135;
+    border-radius: 2px;
+    outline: none;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.centered-button-wrapper > .bttn{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+
+.btn:active{
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+}
+
+/*.centered-button-wrapper button:hover{
+    box-shadow: inset 0rem 2rem 3rem rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    
+}*/
+
+.form-group label{
+    font-size: 1.2rem;
+    font-size: 700;
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+    display: block;
+    transition: all 0.3s;
+    color: #cea135;
+    visibility: hidden;
+    opacity: 0;
+    
+}
+
+.form-group input:focus + label , .form-group textarea:focus + label{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(1rem);
+}
+
+
+
+
+
+

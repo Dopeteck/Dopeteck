@@ -1,0 +1,113 @@
+/* hero-section*/
+.hero-section{
+    background-image: url(images.jpeg) ;
+    padding: 100px;
+    height: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-heading{
+    padding: 1px 12px;
+    background-color:#11122b;
+    color: #cbcbcb;
+    width: 200px;
+    border-radius: 2px;
+    
+    
+}
+
+.bottom-heading{
+    background-color: #cea135;
+    color:#11122b ;
+    padding: 1px 12px;
+    border-radius: 2px;
+    margin-top: 15px;
+    width:150px ;
+    
+}
+
+.page-content{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.content-images {
+    width: 1000px;
+    
+    
+}
+
+.content-images > .images > #image{
+    width: 200px;
+    margin: 30px;
+    float: left;
+    border: 1px solid #cea135;
+
+}
+
+.content-images p{
+    letter-spacing: 1px;
+    line-height: 30px
+}
+
+
+/*box-grid- about-styles*/
+
+.box-wrappers{
+    display: flex;
+    justify-content: center;
+}
+
+.boxes{
+    width: 1000px;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -4px;
+}
+
+
+.box-image img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+#image-2{height: 500px;}
+
+
+.box-content-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 42px;
+}
+
+.box-content-wrapper h1{
+    color: #cea135;
+}
+
+/*helper*/
+.spacer60{
+    height: 60px;
+    width: 100%;
+}
+
+
+
+#pseduo:after{
+    font-family: "font-Awesome 5 free";
+    content: "\f0c1";
+    font-weight: 900;
+    
+}
+
+
+
